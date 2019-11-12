@@ -4,7 +4,7 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-img {
+#img-div img {
     max-width: 100%;
     display: block;
     height: auto;
@@ -20,19 +20,72 @@ img {
 }
 
 #title {
-    padding:5px;
-    background-color:#FF2929;
-    color:white;
+    padding: 5px;
+    background-color: #B21A21;
+    color: white;
     text-transform: uppercase;
 }
 
 #img-caption {
-    font-size:12px;
+    font-size: 12px;
     margin-top: 10px;
 }
 
 #tribute-info {
     background-color: #FFFFE0;
-    padding:15px;
-     margin:10px auto;
+    margin: 10px auto;
+}
+
+p {
+    padding: 10px;
+}
+
+.image {
+    display: block;
+    max-width: 100%;
+    height: 320px;
+}
+
+.container {
+    border: 1px solid gray;
+    position: relative;
+    height: 320px;
+    margin: 10px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFFFE0;
+    overflow: hidden;
+    width: 0%;
+    height: 100%;
+    transition: width 0.7s ease-in;
+}
+
+.container:hover .overlay {
+    width: 100%;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    text-align: center;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+}
+
+hr {
+    margin: 20px 20px;
 }
