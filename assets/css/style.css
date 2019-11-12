@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    margin: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div {
+    margin: 10px auto;
+}
+
+#tribute-info {
+    text-align: justify;
+}
+
+#title {
+    padding:5px;
+    background-color:#FF2929;
+    color:white;
+    text-transform: uppercase;
+}
+
+#img-caption {
+    font-size:12px;
+    margin-top: 10px;
+}
+
+#tribute-info {
+    background-color: #FFFFE0;
+    padding:15px;
+     margin:10px auto;
+}
